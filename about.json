@@ -1,10 +1,4 @@
 {
-  "name": "Dark Blue Theme",
-  "about_url": "",
-  "license_url": "https://desandro.mit-license.org/"
-}
-
-{
   "name": "DarkBlueTheme",
   "component": false,
   "license_url": "https://github.com/ondrej2004/Dark-Blue-Theme/blob/main/LICENSE",
