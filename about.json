@@ -4,19 +4,3 @@
   "license_url": "https://desandro.mit-license.org/"
 }
 
-},
-       "color scheme name": { Dark-Blue-Theme
-          "primary": "ffffff",
-          "secondary": "000632",
-          "tertiary": "ffffff",
-          "quaternary": "ffffff",
-          "header_background": "002d61",
-          "header_primary": "c6c6c6",
-          "highlight": "88ccf2",
-          "danger": "ff0000",
-          "success": "00ff63",
-          "love": "ff0000"
-       }
-   }
-}
-
