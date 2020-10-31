@@ -411,34 +411,6 @@ a.mention {
     background: #7586ff;
 }
 
-/* Whispers */
-.topic-post.whisper button.reply .d-icon,
-.topic-post.whisper button.reply,
-.topic-post.whisper nav.post-controls button.reply,
-.topic-post.whisper nav.post-controls button.reply .d-icon,
-#reply-control.composing-whisper .submit-panel button.create,
-#reply-control.composing-whisper .submit-panel button.create .d-icon {
-  background-color:#dcb450;
-  color:white;
-}
-.topic-post.whisper button.reply:after {
-  content: ""; 
-  
-  
-}
-.topic-post.whisper nav.post-controls button.reply {
-  max-width: max-content;
-}
-
-.topic-post.whisper button.create {
-  white-space: nowrap;
-  max-width: max-content;
-}
-
-#reply-control.composing-whisper {
-  background-color: mix($header-background, #F7941D, 92) !important;
-}
-
 //make buttons round
  .topic-post.whisper button.create{
   border-radius: 5px;
