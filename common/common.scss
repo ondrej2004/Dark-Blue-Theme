@@ -353,6 +353,11 @@ a.mention {
     position: relative;
 }
 
+.category-list .featured-topic a.last-posted-at, .category-list .featured-topic a.last-posted-at:visited {
+    font-size: .8706em;
+    color: #a6a6a6;
+}
+
 /*Change link colour*/
 
 .post-links-container ul li a[href] {
