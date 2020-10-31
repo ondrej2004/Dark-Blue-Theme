@@ -6,7 +6,7 @@
 
 },
    "color_schemes": {
-       "color scheme name": {
+       "color scheme name": { Dark Blue Theme
           "primary": "ffffff",
           "secondary": "000632",
           "tertiary": "ffffff",
@@ -17,6 +17,7 @@
           "danger": "ff0000",
           "success": "00ff63",
           "love": "ff0000"
-        }
-    }
+       }
+   }
 }
+
