@@ -1,0 +1,428 @@
+/*date plus times on topic*/
+
+.timeline-date-wrapper .start-date {
+  &:before {
+    content: "Return to top"; // Change the text here
+  }
+
+  .d-label {
+    display: none; // hide the topic OP date
+  }
+}
+
+/*Adds lines to links with staff colour*/
+
+.moderator .regular>.cooked a, .user-stream .item.moderator-action .title a {
+    color: #fff !important;
+    border-bottom: 2px dotted #fff !important;
+}
+
+/*Post notices colour*/
+
+.post-notice {
+    align-items: center;
+    background-color: #003c5d;
+    border-top: 1px solid transparent;
+    display: flex;
+    max-width: calc( 690px + (11px * 2) + 45px - (0.8em * 2));
+    padding: 0.8em;
+}
+
+/*close topic icon*/
+
+/*Close topic icon in the header when scrolled down*/
+
+.extra-info-wrapper .topic-statuses .d-icon {
+    color: #a6a6a6;
+}
+
+/*Post reply button colour*/
+
+nav.post-controls .actions button.create {
+    margin-right: 0;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+nav.post-controls .actions button.create .d-icon {
+    color: #ffffff;
+}
+
+.topic-body .reply-to-tab {
+    z-index: 2;
+    color: #a6a6a6;
+}
+
+.btn-primary {
+    display: inline-block;
+    margin: 0px;
+    padding: 6px 12px;
+    min-height: 30px;
+    border: none;
+    box-sizing: border-box;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+    background: rgb(0, 118, 255);
+    font-size: 1em;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*Links change colour eg. view hidden reply or likes number and timeline*/
+
+.gap {
+    padding: 0.25em 0 0.5em 56px;
+    color: #a6a6a6;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .8706em;
+}
+
+nav.post-controls .actions a, nav.post-controls .actions button {
+    color: #a6a6a6;
+    margin-right: 2px;
+    display: inline-block;
+}
+
+.timeline-date-wrapper .start-date:before {
+    content: "Return to top";
+    color: white;
+}
+
+.timeline-container .topic-timeline .now-date {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    display: inline-block;
+    color: #ffffff;
+    margin-top: 0.5em;
+}
+
+.timeline-container .topic-timeline .timeline-ago {
+    color: #a6a6a6;
+}
+
+.topic-meta-data .post-info a {
+    color: #a6a6a6;
+}
+
+/*header text, tags and misc colour*/
+
+.extra-info-wrapper .topic-link {
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.extra-info-wrapper .badge-wrapper.bullet span.badge-category, .extra-info-wrapper .badge-wrapper.bar span.badge-category, .extra-info-wrapper .badge-wrapper.none span.badge-category {
+    color: #c6c6c6;
+}
+
+.extra-info-wrapper .discourse-tag {
+    color: #c6c6c6 !important;
+}
+
+/*Home page icon colour*/
+
+.topic-list th button .d-icon {
+    color: #ffffff;
+}
+
+.topic-list-icons .d-icon-thumbtack, .topic-list .d-icon-thumbtack, .latest-topic-list .d-icon-thumbtack, .top-topic-list .d-icon-thumbtack {
+    color: #a6a6a6;
+}
+
+.topic-list-icons .d-icon-bookmark, .topic-list .d-icon-bookmark, .latest-topic-list .d-icon-bookmark, .top-topic-list .d-icon-bookmark {
+    color: #a6a6a6;
+}
+
+.topic-list-icons .d-icon-thumbtack.unpinned, .topic-list .d-icon-thumbtack.unpinned, .latest-topic-list .d-icon-thumbtack.unpinned, .top-topic-list .d-icon-thumbtack.unpinned {
+    color: #a6a6a6;
+}
+
+.badge-posts[href] {
+    color: #a6a6a6;
+}
+
+.coldmap-high {
+    color: #ff7400 !important;
+}
+
+.coldmap-med {
+    color: #e8aa75 !important;
+}
+
+.coldmap-low {
+    color: #b35100 !important;
+}
+
+.nav-pills>li a.active {
+    color: #000106;
+    background-color: #0076ff;
+}
+
+/*Envelope colour in PM*/
+
+.private-message-glyph {
+    color: #a6a6a6;
+}
+
+/*Add staff note and add staff notice buttons colour*/
+
+.btn-primary {
+    display: inline-block;
+    margin: 0;
+    padding: 6px 12px;
+    min-height: 30px;
+    border: none;
+    box-sizing: border-box;
+    font-weight: normal;
+    color: #000000;
+    background: #0076ff;
+    font-size: 1em;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+/*Usernames, title, shield colour*/
+
+.names span a {
+    color: #b3b3b3;
+}
+
+.names .new_user a, .names .user-title, .names .user-title a {
+    color: gray;
+}
+
+.names .fa {
+    font-size: .8706em;
+    color: gray;
+}
+
+.user-info .user-detail .username a {
+    font-weight: bold;
+    color: #b3b3b3;
+}
+
+.user-info .user-detail .title {
+    margin-top: 3px;
+    color: gray;
+}
+
+/*@Mentions colour*/
+
+.mention {
+    align-items: baseline;
+    display: inline-flex;
+    font-weight: bold;
+    font-size: 0.93em;
+    color: #fff;
+    padding: 1px 4px;
+    background: #383838;
+    border-radius: 8px;
+}
+
+/*Header icons (search and hamburger)*/
+
+.d-header-icons .d-icon {
+    width: 100%;
+    font-size: 1.7511em;
+    line-height: 1.4;
+    display: inline-block;
+    color: #c6c6c6;
+}
+
+/*Get rid of blue text everywhere - plus MENTIONS & QUOTES*/
+
+aside.quote .title {
+    border-left: 5px solid #383838;
+    background-color: #39394b;
+    color: #c6c6c6;
+    padding: 12px 12px 0px 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.quote-controls, .quote-controls .d-icon {
+    color: #c6c6c6;
+}
+
+a.mention {
+    align-items: baseline;
+    display: inline-flex;
+    font-weight: bold;
+    font-size: 0.93em;
+    color: #fff;
+    padding: 1px 4px;
+    background: #383838;
+    border-radius: 8px;
+}
+
+.user-main .about .secondary dt {
+    color: #a6a6a6;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.topic-map h4 {
+    margin: 1px 0 2px 0;
+    color: #c6c6c6;
+    font-weight: normal;
+    font-size: .8706em;
+    line-height: 1;
+}
+
+.select-kit .select-kit-collection::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    border-radius: 5px;
+    background: #c6c6c6;
+}
+
+.select-kit.dropdown-select-box.period-chooser .period-chooser-header h2.selected-name .top-date-string {
+    font-size: .8706em;
+    color: #c6c6c6;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.select-kit.dropdown-select-box.period-chooser .period-chooser-row .top-date-string {
+    font-weight: normal;
+    font-size: .8706em;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.topic-list .topic-item-stats .num .fa, .topic-list .topic-item-stats a, .topic-list .topic-item-stats a:visited {
+    color: #c6c6c6;
+}
+
+.topic-list .age a {
+    color: #c6c6c6 !important;
+}
+
+.topic-map .map .number, .topic-map .map .d-icon {
+    color: #a6a6a6;
+    font-size: 1.1487em;
+}
+
+.moderator .clearfix>.topic-meta-data>.names span.user-title, .moderator .nav-pills>.topic-meta-data>.names span.user-title, .moderator .container>.topic-meta-data>.names span.user-title, .moderator .wrap>.topic-meta-data>.names span.user-title {
+    color: gray;
+}
+
+.badge-groups {
+    margin: 20px 0;
+    color: #c6c6c6;
+}
+
+.user-info.medium.badge-info .granted-on {
+    color: #a6a6a6;
+}
+
+.group-info .group-info-full-name {
+    font-size: 1.3195em;
+    color: #c6c6c6;
+}
+
+.control-instructions {
+    color: #a6a6a6;
+    font-size: 0.875rem;
+}
+
+
+
+/*Change link colour*/
+
+.post-links-container ul li a[href] {
+    color: #c6c6c6;
+}
+
+.post-links-container .expand-links {
+    color: #fff;
+}
+
+/*User > notifications*/
+
+.user-stream .notification .fa, .user-stream .notification .icon {
+    color: #c6c6c6;
+    font-size: 1.7511em;
+}
+
+.user-stream .notification.unread {
+    background-color: #3b3b3b;
+}
+
+/*User > profile bio*/
+
+.user-preferences .bio-composer .d-editor-preview, .group-form-bio .d-editor-preview, .edit-category-tab-topic-template .d-editor-preview {
+    background-color: #ffffff21;
+    padding: 5px;
+}
+
+/*solution button*/
+
+.post-controls .extra-buttons .accepted .d-icon, .post-controls .extra-buttons .accepted .d-button-label {
+    color: #00ff63;
+}
+
+.fa.accepted {
+    color: #00ff63;
+}
+
+/*Add blue to Admin settings*/
+
+.nav-stacked a.active {
+    color: #000632;
+    background-color: #0076ff;
+}
+
+/*Add blue*/
+
+.open .grippie {
+    cursor: row-resize;
+    padding: 4px 0;
+    background: #7586ff;
+}
+
+/* Whispers */
+.topic-post.whisper button.reply .d-icon,
+.topic-post.whisper button.reply,
+.topic-post.whisper nav.post-controls button.reply,
+.topic-post.whisper nav.post-controls button.reply .d-icon,
+#reply-control.composing-whisper .submit-panel button.create,
+#reply-control.composing-whisper .submit-panel button.create .d-icon {
+  background-color:#dcb450;
+  color:white;
+}
+.topic-post.whisper button.reply:after {
+  content: ""; 
+  
+  
+}
+.topic-post.whisper nav.post-controls button.reply {
+  max-width: max-content;
+}
+
+.topic-post.whisper button.create {
+  white-space: nowrap;
+  max-width: max-content;
+}
+
+#reply-control.composing-whisper {
+  background-color: mix($header-background, #F7941D, 92) !important;
+}
+
+//make buttons round
+ .topic-post.whisper button.create{
+  border-radius: 5px;
+    &.btn-flat.close {
+    box-shadow: none;
+  }
+}
