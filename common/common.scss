@@ -336,7 +336,22 @@ a.mention {
     font-size: 0.875rem;
 }
 
+.list-cell, .table-heading, .category-list td, .category-list th {
+    padding: 12px 5px;
+    color: #c6c6c6;
+}
 
+.user-info .user-detail .name {
+    margin-left: 5px;
+    color: gray;
+}
+
+.group-details-container {
+    background: #ffffff21;
+    padding: 20px;
+    margin-bottom: 15px;
+    position: relative;
+}
 
 /*Change link colour*/
 
