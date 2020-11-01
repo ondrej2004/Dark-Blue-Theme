@@ -370,6 +370,17 @@ div.education {
     color: #c6c6c6;
 }
 
+/*Hamburger menu unread notification number colour*/
+
+.menu-panel li.category-link .badge-notification {
+    color: #c6c6c6;
+    background-color: transparent;
+    display: inline;
+    padding: 0;
+    font-size: .8706em;
+    line-height: 1.4;
+}
+
 /*Change link colour*/
 
 .post-links-container ul li a[href] {
