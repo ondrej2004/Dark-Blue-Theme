@@ -165,6 +165,14 @@ nav.post-controls .actions a, nav.post-controls .actions button {
     background-color: #0076ff;
 }
 
+/User profile menu on main page colour change/
+
+div.menu-links-header .menu-links-row li a.active {
+    border: 1px solid #8c8c8c;
+    border-bottom: 1px solid #000632;
+    position: relative;
+}
+
 /*Envelope colour in PM*/
 
 .private-message-glyph {
