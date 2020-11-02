@@ -118,6 +118,14 @@ nav.post-controls .actions a, nav.post-controls .actions button {
     text-overflow: ellipsis;
 }
 
+/*Profile menu colour changes*/
+
+div.menu-links-header .menu-links-row li a.active {
+    border: 1px solid #838383;
+    border-bottom: 1px solid #000632;
+    position: relative;
+}
+
 .extra-info-wrapper .badge-wrapper.bullet span.badge-category, .extra-info-wrapper .badge-wrapper.bar span.badge-category, .extra-info-wrapper .badge-wrapper.none span.badge-category {
     color: #c6c6c6;
 }
@@ -165,13 +173,6 @@ nav.post-controls .actions a, nav.post-controls .actions button {
     background-color: #0076ff;
 }
 
-/User profile menu on main page colour change/
-
-div.menu-links-header .menu-links-row li a.active {
-    border: 1px solid #8c8c8c;
-    border-bottom: 1px solid #000632;
-    position: relative;
-}
 
 /*Envelope colour in PM*/
 
