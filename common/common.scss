@@ -71,6 +71,15 @@ nav.post-controls .actions button.create .d-icon {
 
 /*Links change colour eg. view hidden reply or likes number and timeline*/
 
+/*Topic featured link*/
+
+a.topic-featured-link {
+    display: inline-block;
+    text-transform: lowercase;
+    color: #a6a6a6;
+    font-size: 0.875rem;
+}
+
 .gap {
     padding: 0.25em 0 0.5em 56px;
     color: #a6a6a6;
