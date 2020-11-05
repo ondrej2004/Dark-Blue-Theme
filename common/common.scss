@@ -460,6 +460,12 @@ div.education {
     background-color: #0076ff;
 }
 
+/*Remove blue background from quote button*/
+
+.quote-button .btn, .quote-button .btn:hover, .quote-button .d-icon, .quote-button .btn:hover .d-icon {
+    color: var(--secondary-or-primary);
+    background: #606060;
+}
 
 /*Add blue text*/
 
