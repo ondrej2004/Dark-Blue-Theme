@@ -515,6 +515,10 @@ div.education {
     padding-bottom: 5px;
 }
 
+html.whos-online-glow .topic-avatar.user-online img.avatar {
+    box-shadow: 0 0 4px 4px #00ff64;
+}
+
 //make buttons round
  .topic-post.whisper button.create{
   border-radius: 5px;
