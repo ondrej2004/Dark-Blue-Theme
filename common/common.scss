@@ -518,19 +518,3 @@ div.education {
 html.whos-online-glow .topic-avatar.user-online img.avatar {
     box-shadow: 0 0 4px 4px #00ff64;
 }
-
-//make buttons round
- .topic-post.whisper button.create{
-  border-radius: 5px;
-    &.btn-flat.close {
-    box-shadow: none;
-  }
-}
-
-
-
-/*make wiki post green*/
-
-.wiki .topic-body {
-    background-color: #dcffdc; /*light green*
-}
