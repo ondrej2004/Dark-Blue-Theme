@@ -524,3 +524,18 @@ html.whos-online-glow .topic-avatar.user-online img.avatar {
 .wiki .topic-body {
     background-color: #195720;
 }
+
+/*Timeline username colour*/
+
+.timeline-container.timeline-fullscreen .topic-timeline .username {
+    color: #c6c6c6;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+
+/*Categories list*/
+
+.category-list .topics .badge-notification, .category-list .category .badge-notification {
+    background-color: transparent;
+    color: #a6a6a6;
+}
