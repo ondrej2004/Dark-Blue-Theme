@@ -296,6 +296,12 @@ aside.onebox header a[href] {
     text-decoration: none;
 }
 
+/*Onebox likes and reading time*/
+
+.onebox.allowlistedgeneric .label1, .onebox.allowlistedgeneric .label2, .onebox.whitelistedgeneric .label1, .onebox.whitelistedgeneric .label2 {
+    color: #a6a6a6;
+}
+
 .quote-controls, .quote-controls .d-icon {
     color: #c6c6c6;
 }
