@@ -182,11 +182,31 @@ div.menu-links-header .menu-links-row li a.active {
     background-color: #0076ff;
 }
 
+/*Home page -> latest*/
+
+.latest-topic-list-item .topic-last-activity a {
+    color: #a6a6a6;
+}
+
+.latest-topic-list .table-heading, .top-topic-list .table-heading {
+    padding: 12px 5px;
+    color: #c6c6c6;
+}
+
 
 /*Envelope colour in PM*/
 
 .private-message-glyph {
     color: #a6a6a6;
+}
+
+/*Messages > user count colour*/
+
+.topic-list .posters>a.posters-more-count {
+    cursor: default;
+    color: #a6a6a6;
+    line-height: 25px;
+    font-size: .8706em;
 }
 
 /*Add staff note and add staff notice buttons colour*/
