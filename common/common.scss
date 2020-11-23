@@ -447,6 +447,13 @@ a.mention-group.notify, .small-action-desc a.mention-group {
     color: #c6c6c6;
 }
 
+/*Remove blue from upload image pop-up*/
+
+.upload-selector .radios .inputs .description, .upload-selector .radios .inputs .hint {
+    color: #a6a6a6;
+    display: block;
+}
+
 /*new topic text change from blue to grey*/
 
 div.education {
