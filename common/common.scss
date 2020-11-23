@@ -584,6 +584,13 @@ html.whos-online-glow .topic-avatar.user-online img.avatar {
     border-radius: 6px;
 }
 
+/*Round admin options eg. 'required' 'branding'*/
+.nav-stacked a.active {
+    color: #000632;
+    background-color: #0076ff;
+    border-radius: 6px;
+}
+
 /*Round 'All categories' & 'All tags'*/
 
 .list-controls .combo-box .combo-box-header {
