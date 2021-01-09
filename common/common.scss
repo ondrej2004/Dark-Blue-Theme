@@ -570,6 +570,13 @@ html.whos-online-glow #user-card.user-online .user-card-avatar img.avatar {
     font-weight: bold;
 }
 
+/*Post link date*/
+
+#share-link .title .date {
+    font-weight: normal;
+    color: #a6a6a6;
+}
+
 /*Categories list*/
 
 .category-list .topics .badge-notification, .category-list .category .badge-notification {
