@@ -143,6 +143,12 @@ div.menu-links-header .menu-links-row li a.active {
     color: #c6c6c6 !important;
 }
 
+/*Menu links header - icon colour change*/
+
+div.menu-links-header .fa, div.menu-links-header button {
+    color: #c6c6c6;
+}
+
 /*Home page icon colour*/
 
 .topic-list th button .d-icon {
