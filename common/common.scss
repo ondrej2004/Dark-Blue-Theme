@@ -315,6 +315,13 @@ aside.quote .title {
     -ms-user-select: none;
 }
 
+// use badge as title text
+
+.show-badge-details .grant-info-item {
+    margin-bottom: 1em;
+    color: #a6a6a6;
+}
+
 /*Onebox link header*/
 
 aside.onebox header a[href] {
